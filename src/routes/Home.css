@@ -1,0 +1,10 @@
+body{background-color: #333; font-size:15px;  color:#000;}
+
+h1,h2,h3,h4,h5,p,li,span,div,ul{margin:0; padding:0; font-weight:400; list-style: none; text-decoration:normal; font-size:15px; color:#000;}
+
+.container{position:relative; min-height:100vh;}
+
+.container .loader{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);}
+.container .loader .loader_text{color:#FFF; font-size:2rem; text-align:center;}
+
+.container .movies{padding:10%; width:100%; box-sizing:border-box; display:flex; flex-wrap:wrap; justify-content:space-between;}

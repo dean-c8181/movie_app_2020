@@ -1,0 +1,13 @@
+.movies_movie{background-color:#FFF; width:45%; display:flex; justify-content: space-between; position:relative; margin-bottom:5%; border-radius:5px; box-shadow: 0 5px 20px rgba(255,255,255,0.5); padding-left:2%; box-sizing: border-box; padding-bottom:3%;}
+.movies_movie:nth-child(4n),
+.movies_movie:nth-child(4n+1){background-color:#d2e3fd;}
+
+.movies_movie .posterBox{width:150px; position: relative;}
+.movies_movie .posterBox img{width:100%; position: absolute; top:-20px;}
+
+.movies_movie .movie_data{width:calc(100% - 150px); padding:5%; box-sizing:border-box;}
+.movie_data .movie_title{font-size:1.4em; font-weight:600; margin-bottom:0.6rem;}
+.movie_data .movie_year{color:#555; margin-bottom:0.6rem;}
+.movie_data .genres{display:flex; flex-wrap:wrap; margin-bottom:0.8rem;}
+.movie_data .genres li{padding-right:15px; color:#555;}
+.movie_data .movie_summary{font-size:1.1rem; line-height:1.35rem;}
