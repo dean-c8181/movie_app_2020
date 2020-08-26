@@ -1,5 +1,5 @@
 import React from "react";
-import "./components/Movie.css";
+import "./Movie.css";
 
 function Movie({year, title, summary, poster, genres}){
     return(
