@@ -1,9 +1,11 @@
 import React from "react";
+import "../routes/Home.css";
 
-function About() {
+function About(props) {
+    console.log(props);
     return(
         <div>
-            <span>About this page : I built it because I love movies.</span>
+            <span className="whiteTxt">About this page : I built it because I love movies.</span>
         </div>
     );
 }
